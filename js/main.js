@@ -105,6 +105,10 @@ $(function(){
         $('.phone_frame2').fadeOut();
         $('.phone_frame3').fadeOut();
     });
+    $('.close5').click(function(){
+        $('.contact_wrap').fadeOut(1000);
+        $('.scroll').fadeIn(1500);
+    });
 
     //배너 포트폴리오 클릭 확대보기
     $('.b1').click(function(){
